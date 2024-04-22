@@ -1,6 +1,8 @@
-#Encryption & Decryption Using Open SSL 
+# Encryption & Decryption Using Open SSL 
 
-# First Create Public Key And Private Key
+
+
+#First Create Public Key And Private Key
 
 openssl genrsa -aes256 -passout pass:YourPassphrase -out private_key.pem 4096
 
